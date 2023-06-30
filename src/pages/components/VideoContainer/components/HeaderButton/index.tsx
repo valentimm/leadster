@@ -8,7 +8,7 @@ export interface HeaderButtonProps {
 export default function HeaderButton({ title }: HeaderButtonProps) {
   return (
     <StyleHeaderButton>
-      <span>{title}</span>
+      <button>{title}</button>
     </StyleHeaderButton>
   )
 }
