@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyleInfoBanner = styled.div`
+const StyleInfoBanner = styled.div`
   display: flex;
   background-color: #F0F8FF;
   background-image: radial-gradient(circle at bottom, transparent 40%, #e6f3ff 40%, #e6f3ff 50%, transparent 50%);
@@ -101,3 +101,4 @@ export const StyleInfoBanner = styled.div`
 
 }
 `
+export default StyleInfoBanner;

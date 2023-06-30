@@ -1,4 +1,4 @@
-import { StyleHeader } from "./styles";
+import StyleHeader from "./styles";
 
 export default function Header () {
     return (

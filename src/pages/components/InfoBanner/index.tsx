@@ -1,4 +1,4 @@
-import { StyleInfoBanner } from "./style";
+import StyleInfoBanner from "./style";
 
 export default function InfoBanner (){
   return (

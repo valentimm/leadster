@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyleHeaderButton = styled.div`
+const StyleHeaderButton = styled.div`
 button{
     font-size: 1rem;
     background-color: transparent;
@@ -23,4 +23,5 @@ button{
       background-color: #2C83FB;
     }
 }
-  `
+`
+export default StyleHeaderButton;

@@ -1,4 +1,4 @@
-import { StyleMainBanner } from "./style";
+import StyleMainBanner from "./style";
 
 export default function MainBanner() {
   return (

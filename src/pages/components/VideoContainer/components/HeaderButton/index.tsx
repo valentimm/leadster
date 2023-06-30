@@ -1,4 +1,4 @@
-import { StyleHeaderButton } from "./style";
+import StyleHeaderButton from "./style";
 
 export interface HeaderButtonProps {
   key: number;

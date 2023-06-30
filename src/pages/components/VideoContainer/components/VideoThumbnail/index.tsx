@@ -1,4 +1,4 @@
-import { StyleVideoThumbnail } from "./style";
+import StyleVideoThumbnail from "./style";
 
 export interface VideoThumbnailProps {
   key: number;

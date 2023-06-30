@@ -1,6 +1,6 @@
 import HeaderButton, { HeaderButtonProps } from "./components/HeaderButton";
 import VideoThumbnail, { VideoThumbnailProps } from "./components/VideoThumbnail";
-import { StyleVideoContainer } from "./style";
+import StyleVideoContainer from "./style";
 
 export default function VideoContainer() {
   const titles: HeaderButtonProps[] = [

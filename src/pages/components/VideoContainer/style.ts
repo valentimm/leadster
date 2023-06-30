@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyleVideoContainer = styled.div`
+const StyleVideoContainer = styled.div`
   display: flex;
   padding: 5rem 30rem;
   flex-direction: column;
@@ -29,3 +29,4 @@ export const StyleVideoContainer = styled.div`
     padding-top: 1rem;
   }
 `
+export default StyleVideoContainer;

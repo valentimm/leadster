@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyleVideoThumbnail = styled.div`
+const StyleVideoThumbnail = styled.div`
   position: relative;
   width: 18rem;
   height: 16rem;
@@ -55,3 +55,4 @@ export const StyleVideoThumbnail = styled.div`
     }
   }
 `;
+export default StyleVideoThumbnail;
