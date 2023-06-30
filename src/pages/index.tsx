@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import MainBanner from "./components/MainBanner";
+import VideoContainer from "./components/VideoContainer";
 import { Container } from "./style";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <Container>
       <Header />
       <MainBanner />
+      <VideoContainer />
     </Container>
   )
 }

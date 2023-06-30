@@ -40,7 +40,7 @@ export const StyleMainBanner = styled.div`
   p {
   font-size: 1.25rem;
   font-weight: 400;
-  border-top: 1px solid #2C83FB;
+  border-top: 1px solid #dfe2e5;
   padding: 1rem 2.5rem;
   color: #1c3c50;
   margin-top: -3rem;
