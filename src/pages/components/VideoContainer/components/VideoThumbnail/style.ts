@@ -54,5 +54,7 @@ const StyleVideoThumbnail = styled.div`
       z-index: 3;
     }
   }
+
+  
 `;
 export default StyleVideoThumbnail;
