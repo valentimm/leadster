@@ -11,21 +11,21 @@ export default function Footer() {
     { key: 4, title: "Contato", link: "https://leadster.com.br/contato/"},
   ]
   const cases: ListLinksProps[] = [
-    { key: 1, title: "Geração de Leads B2B", link: "https://leadster.com.br/estudo-de-caso/"},
-    { key: 2, title: "Geração de Leads em Software", link: "https://leadster.com.br/estudo-de-caso/" },
-    { key: 3, title: "Geração de Leads em Imobiliária", link: "https://leadster.com.br/estudo-de-caso/"},
-    { key: 4, title: "Cases de Sucesso", link: "https://leadster.com.br/estudo-de-caso/"},
+    { key: 5, title: "Geração de Leads B2B", link: "https://leadster.com.br/estudo-de-caso/"},
+    { key: 6, title: "Geração de Leads em Software", link: "https://leadster.com.br/estudo-de-caso/" },
+    { key: 7, title: "Geração de Leads em Imobiliária", link: "https://leadster.com.br/estudo-de-caso/"},
+    { key: 8, title: "Cases de Sucesso", link: "https://leadster.com.br/estudo-de-caso/"},
   ]
   const materiais: ListLinksProps[] = [
-    { key: 1, title: "Blog", link: "https://leadster.com.br/blog/"},
-    { key: 2, title: "Parceria com Agências", link: "https://leadster.com.br/agencias-parceiras/" },
-    { key: 3, title: "Guia Definitivo do Marketing", link: "https://leadster.com.br/marketing-conversacional/"},
-    { key: 4, title: "Materiais Gratuitos", link: "https://leadster.com.br/materiais/"},
+    { key: 9, title: "Blog", link: "https://leadster.com.br/blog/"},
+    { key: 10, title: "Parceria com Agências", link: "https://leadster.com.br/agencias-parceiras/" },
+    { key: 11, title: "Guia Definitivo do Marketing", link: "https://leadster.com.br/marketing-conversacional/"},
+    { key: 12, title: "Materiais Gratuitos", link: "https://leadster.com.br/materiais/"},
   ]
   const socialLinks: SocialLinksProps[] = [
-    { key: 1, title: "Linkedin", link: "https://www.linkedin.com/company/leadster-platform/", icon:"linkedin.svg"},
-    { key: 2, title: "Facebook", link: "https://www.facebook.com/leadsterplatform", icon:"facebook.svg"},
-    { key: 2, title: "Instagram", link: "https://instagram.com", icon:"instagram.svg" },
+    { key: 13, title: "Linkedin", link: "https://www.linkedin.com/company/leadster-platform/", icon:"linkedin.svg"},
+    { key: 14, title: "Facebook", link: "https://www.facebook.com/leadsterplatform", icon:"facebook.svg"},
+    { key: 15, title: "Instagram", link: "https://instagram.com", icon:"instagram.svg" },
   ]
   return (
     <StyleFooter>

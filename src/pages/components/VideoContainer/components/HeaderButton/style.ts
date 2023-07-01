@@ -17,11 +17,11 @@ button{
       cursor: pointer;
     }
 
-    &:active {
+    &.active {
       border: 1px solid #2C83FB;
       color: #ffffff;
       background-color: #2C83FB;
     }
-}
+  }
 `
 export default StyleHeaderButton;
