@@ -6,14 +6,15 @@ export interface HeaderButtonProps {
   title: string;
 }
 
+
 export default function HeaderButton({ buttonKey, title }: HeaderButtonProps) {
   const [activeButton, setActiveButton] = useState<number | null>(null);
 
   const handleClick = () => {
     if (activeButton === buttonKey) {
-      setActiveButton(null); // Desativa o botão se ele já estiver ativo
+      setActiveButton(null);
     } else {
-      setActiveButton(buttonKey); // Ativa o botão se ele estiver inativo
+      setActiveButton(buttonKey);
     }
   };
 
