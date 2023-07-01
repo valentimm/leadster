@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import InfoBanner from "./components/InfoBanner";
 import MainBanner from "./components/MainBanner";
@@ -11,6 +12,7 @@ export default function Home() {
       <MainBanner />
       <VideoContainer />
       <InfoBanner />
+      <Footer />
     </Container>
   )
 }
