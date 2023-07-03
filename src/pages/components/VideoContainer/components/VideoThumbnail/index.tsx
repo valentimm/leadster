@@ -15,7 +15,6 @@ export default function VideoThumbnail({ image, title }: VideoThumbnailProps) {
           <img src={image} alt="Thumbnail" />
         </span>
       </Dialog.Trigger>
-
         <p>{title}</p>
     </StyleVideoThumbnail>
     </Dialog.Root>

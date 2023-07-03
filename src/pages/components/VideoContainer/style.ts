@@ -13,6 +13,22 @@ const StyleVideoContainer = styled.div`
     border-bottom: 2px solid #dfe2e5;
     padding-bottom: 1rem;
     width: 100%;
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+    .search {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      align-items: center;
+      
+      p {
+        font-weight: bold;
+        color: #1c3c50;
+      }
+    }
   }
   main {
     display: grid;
