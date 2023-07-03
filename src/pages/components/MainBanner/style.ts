@@ -46,5 +46,6 @@ const StyleMainBanner = styled.div`
   margin-top: -3rem;
 }
 
+
 `
 export default StyleMainBanner;

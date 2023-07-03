@@ -44,5 +44,14 @@ const StyleVideoContainer = styled.div`
     border-top: 2px solid #dfe2e5;
     padding-top: 1rem;
   }
+
+  @media (max-width: 768px) {
+    padding: 5rem 2rem;
+    header {
+      flex-direction: row;
+      gap: 1rem;
+
+    }
+  }
 `
 export default StyleVideoContainer;

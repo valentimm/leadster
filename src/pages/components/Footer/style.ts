@@ -79,5 +79,13 @@ const StyleFooter = styled.footer`
       color: #007dff;
     }
   }
+
+  @media (max-width: 768px) {
+    width: 65rem;
+    padding: 0;
+    .copyright{
+      margin: 0 -5rem;
+    }
+  }
 `
 export default StyleFooter;
